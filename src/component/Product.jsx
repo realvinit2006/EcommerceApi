@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { ecomContext } from "../Home";
+import "../style.css";
 
 function Product({ product }) {
   const { handleAddToCart } =   useContext(ecomContext);
