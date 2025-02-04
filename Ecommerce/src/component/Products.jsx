@@ -1,5 +1,4 @@
-// import Product from "Product";
-import Product from "./product";
+import Product from "./Product"
 
 function Products({ products }) {
     return products.map((product) => {
